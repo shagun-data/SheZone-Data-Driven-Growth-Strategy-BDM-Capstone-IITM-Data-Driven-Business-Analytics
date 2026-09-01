@@ -1,72 +1,63 @@
-# SheZone-Data-Driven-Growth-Strategy-BDM-Capstone-IITM-Data-Driven-Business-Analytics
-End-to-end, research-driven BDM capstone project from IIT Madras using real-world business data. Covers problem framing, data cleaning, EDA, RFM segmentation, competitor benchmarking, and insight-driven strategy, showcasing applied analytics and data-driven decision-making.
+# SheZone Salon: Data-Driven Business Analytics & Retention Strategy
 
-BDM Capstone Project | IIT Madras
+A comprehensive business analytics and customer segmentation project for **SheZone Salon** (Lucknow Cantt), analyzing transaction patterns, customer churn, and competitive positioning to drive data-backed growth strategies.
 
-This repository contains my end-to-end research-driven capstone project completed as part of the Business Data Management (BDM) program at IIT Madras. The project follows a complete research lifecycle—from problem formulation and literature grounding to data-driven experimentation, evaluation, and final insights—bridging theoretical research thinking with practical implementation.
+---
 
-The work demonstrates my ability to:
+## 📌 Executive Summary
 
-Frame real-world problems in a research-oriented manner
+SheZone Salon is a mid-sized women’s beauty parlour operating in Topkhana, Lucknow Cantt since 2015. Offering core services across haircare, skincare, nail care, and bridal makeup, the salon enjoys a strong local presence. However, recent operational trends revealed two primary business bottlenecks: **rising customer churn** and **steep off-season revenue contractions** (particularly during May–June following peak wedding season in April).
 
-Design structured data-driven methodologies
+This project integrates primary transactional data with secondary competitor intelligence to evaluate revenue drivers, quantify churn risks, and propose tech-enabled, personalized retention strategies.
 
-Perform systematic analysis and validation
+---
 
-Translate findings into actionable insights and decisions
+## 🏬 Field Visit & Stakeholder Engagement
 
-This capstone is my primary research-based practical project, and it reflects my approach to applied research: combining rigor, experimentation, and real-world relevance. I am sharing this as part of my application journey for research-focused roles and programs (including Google Research Student Intern 2026) to showcase my ability to independently execute a complete, structured, and impact-oriented project.
+<p align="center">
+  <img width="1014" height="552" alt="ME WITH THE OWNER OF THE SALON" src="https://github.com/user-attachments/assets/18b562f2-bca5-446a-b3b3-db0b5ec03372" />
+  <br>
+  <em>Fig 1: Primary data collection and stakeholder discussion on-site at SheZone Salon.</em>
+</p>
 
-🔹 2. Proposal Stage Description
+---
 
-Project Proposal | Research Problem Formulation & Methodology Design
+## 📊 Datasets & Methodology
 
-This folder contains the proposal stage of my BDM Capstone Project at IIT Madras, where I define the problem statement, objectives, motivation, and planned methodology for the research.
+The analysis relies on two primary data streams:
 
-The proposal focuses on:
+1. **Primary Transactional Dataset (Jan–Jun 2025):** 
+   * **Size:** 450 consolidated appointment logs over 6 months.
+   * **Variables:** `CustomerID`, `Service Type`, `Visit Date`, `Booking Channel` (Walk-in vs. Appointment), `Discounts`, `Final Bill Value`.
+   * **Key Observation:** Active customer footfall dropped by **28%** between January (peak) and June (trough), with bill values displaying strong right-skewness due to high-value, low-frequency premium packages.
 
-Identifying a meaningful, real-world, data-driven problem
+2. **Secondary Competitor Benchmark Data:**
+   * **Size:** 300 records compiled across competitor brand portals and aggregator platforms (UrbanClap, Justdial) for players like Lakmé Salon and Naturals.
+   * **Key Observation:** Premium market competitors leverage advanced skincare diagnostics and structured loyalty programs to command higher average transaction values (~₹3,100) and sustain brand stickiness.
 
-Structuring it into a clear research question
+---
 
-Designing a systematic approach for data collection, analysis, and evaluation
+## 🔍 Analytical Framework & Insights
 
-Laying the foundation for a scalable and reproducible study
+* **Descriptive & Seasonal Profiling:** Verified an overall **8–10% month-on-month revenue decline** during non-festive quarters (April to May/June).
+* **RFM (Recency, Frequency, Monetary) Segmentation:** 
+  * **Champions (20%)** & **Loyal (30%):** Core revenue generators; primary focus for referral incentives.
+  * **At-Risk (24%)** & **Need Action (26%):** Highly vulnerable to churn; prioritized for targeted win-back campaigns.
+* **ABC Revenue Analysis:**
+  * **Category A (Volume Drivers):** Routine grooming services (Haircuts, Waxing, Threading) generate **70% of total footfall**.
+  * **Category B/C (Margin Drivers):** Premium services (Bridal Packages, Hair Spas) account for **>40% of total revenue** despite lower booking frequency.
 
-This stage highlights my ability to think in a research-oriented, structured, and hypothesis-driven manner, which is essential for applied research and industry research internships.
+---
 
-🔹 3. Mid-Term Stage Description
+## 🚀 Key Recommendations & Future Scope
 
-Mid-Term Submission | Data Exploration, Method Refinement & Early Results
+1. **Tech-Enabled Personalization:** Implement AI-driven skin consultation tools to bridge the service gap with premium market alternatives.
+2. **Dynamic Loyalty Programs:** Structure automated reminders and custom discounts aimed directly at the **At-Risk (24%)** customer segment before complete churn occurs.
+3. **Off-Season Promotional Bundles:** Create service packages pairing routine high-frequency treatments with premium add-ons to stabilize revenue through May and June.
 
-This folder contains the mid-term progress of my BDM Capstone Project at IIT Madras, focusing on implementation, exploratory analysis, and methodological refinement.
+---
 
-At this stage, the project demonstrates:
-
-Transition from theoretical plan to practical execution
-
-Initial data processing, exploration, and validation
-
-Refinement of models/approaches based on empirical findings
-
-Early insights that guide the final direction of the research
-
-This phase reflects my ability to iterate, adapt, and improve a research pipeline based on evidence—an important skill in both academic and industrial research environments.
-
-🔹 4. Final Stage Description
-
-Final Submission | Complete Pipeline, Results & Research Insights
-
-This folder contains the final version of my BDM Capstone Project at IIT Madras, presenting the complete research workflow from problem formulation to final results and conclusions.
-
-The final submission includes:
-
-A fully implemented data-driven pipeline
-
-Detailed analysis, evaluation, and interpretation of results
-
-Clear justification of design choices and methodology
-
-Practical insights derived from the study
-
-This stage represents the culmination of a research-oriented, end-to-end applied project, showcasing my ability to independently execute, evaluate, and communicate a complete data/research workflow—skills directly relevant for research internships and applied research roles.
+## 🛠️ Tech Stack & Tools Used
+* **Data Processing & Analysis:** Python (Pandas, NumPy) / Excel
+* **Customer Analytics:** RFM Modeling, ABC Analysis
+* **Visualization:** Matplotlib / Seaborn

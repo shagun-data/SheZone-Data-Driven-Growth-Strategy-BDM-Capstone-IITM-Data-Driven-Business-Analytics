@@ -17,7 +17,7 @@ This project integrates primary transactional data with secondary competitor int
 <p align="center">
   <img width="1014" height="552" alt="ME WITH THE OWNER OF THE SALON" src="https://github.com/user-attachments/assets/18b562f2-bca5-446a-b3b3-db0b5ec03372" />
   <br>
-  <em>Fig 1: Primary data collection and stakeholder discussion on-site at SheZone Salon.</em>
+  <em></em>
 </p>
 
 ---
